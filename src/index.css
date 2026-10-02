@@ -5,11 +5,11 @@
   --open-sans: 'Open Sans', sans-serif;
   --archivo-black: 'Archivo Black', sans-serif;
   --bricolage-grotesque: 'Bricolage Grotesque', sans-serif;
-  --red:#780000;
-  --light-red:#C1121F;
-  --peach:#FDF0D5;
-  --dark-blue:#003049;
-  --light-blue:#669BBC;
+  --orange:#FB8500;
+  --yellow:#FFB703;
+  --dark-blue:#219EBC;
+  --light-blue:#8ECAE6;
+  --max-blue:#023047;
 }
 
 html{

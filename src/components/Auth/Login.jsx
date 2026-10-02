@@ -10,8 +10,8 @@ export default function Login() {
 
                 <label htmlFor="password" className="size-very-small">Password</label>
                 <input id="email" className="w-full border mt-1 outline-none py-2.5 px-4" type="email" placeholder="Enter your password" />
-                <button type="button" className="w-full my-3 bg-(--light-blue) active:scale-95 transition py-2.5 text-white size-very-small cursor-pointer">Login</button>
-                <p className="text-center mt-4">Don't have an account? <Link to="/signup"><span className="text-(--light-blue) underline">Signup Now</span></Link></p>
+                <button type="button" className="w-full my-3 bg-(--dark-blue) active:scale-95 transition py-2.5 text-white size-very-small cursor-pointer">Login</button>
+                <p className="text-center mt-4">Don't have an account? <Link to="/signup"><span className="text-(--dark-blue) underline">Signup Now</span></Link></p>
             </div>
         </div>
     );
