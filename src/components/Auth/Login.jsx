@@ -1,11 +1,18 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
     return (
-        <div className="bg-white text-gray-500 max-w-96 mx-4 md:p-6 p-4 text-left text-sm rounded shadow-[0px_0px_10px_0px] shadow-black/10">
-            <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">Forget Password?</h2>
-            <label htmlFor="email">Email</label>
-            <input id="email" className="w-full border mt-1 border-gray-500/30 focus:border-indigo-500 outline-none rounded py-2.5 px-4" type="email" placeholder="Enter your email" />
-            <button type="button" className="w-full my-3 bg-gray-800 active:scale-95 transition py-2.5 rounded text-white">Send Email</button>
-            <p className="text-center mt-4">Don’t have an account? <span className="text-blue-500 underline">Signup Now</span></p>
+        <div className="min-h-screen flex items-center justify-center px-4">
+            <div className="bg-white max-w-96 md:p-6 p-4 text-left text-sm shadow-[0px_0px_10px_0px] shadow-black/10">
+                <h2 className="size-medium font-semibold mb-6 text-center">Login</h2>
+                <label htmlFor="email" className="size-very-small">Email</label>
+                <input id="email" className="w-full border mt-1 mb-5 outline-none py-2.5 px-4" type="email" placeholder="Enter your email" />
+
+                <label htmlFor="password" className="size-very-small">Password</label>
+                <input id="email" className="w-full border mt-1 outline-none py-2.5 px-4" type="email" placeholder="Enter your password" />
+                <button type="button" className="w-full my-3 bg-(--light-blue) active:scale-95 transition py-2.5 text-white size-very-small cursor-pointer">Login</button>
+                <p className="text-center mt-4">Don't have an account? <Link to="/signup"><span className="text-(--light-blue) underline">Signup Now</span></Link></p>
+            </div>
         </div>
     );
 };

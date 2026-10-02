@@ -5,6 +5,11 @@
   --open-sans: 'Open Sans', sans-serif;
   --archivo-black: 'Archivo Black', sans-serif;
   --bricolage-grotesque: 'Bricolage Grotesque', sans-serif;
+  --red:#780000;
+  --light-red:#C1121F;
+  --peach:#FDF0D5;
+  --dark-blue:#003049;
+  --light-blue:#669BBC;
 }
 
 html{
@@ -14,3 +19,20 @@ html{
 body{
   font-family: var(--ubuntu-sans);
 }
+
+.size-large{
+  font-size: 40px;
+}
+
+.size-medium{
+  font-size: 30px;
+}
+
+.size-small{
+  font-size: 20px;
+}
+
+.size-very-small{
+  font-size: 16px;
+}
+
